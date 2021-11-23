@@ -10,7 +10,7 @@
     </main>
 
     <footer>
-      <FooterTop class="lello"/>
+      <FooterTop class="footer_top"/>
       <FooterBottom />
     </footer>
     
@@ -56,7 +56,8 @@ footer{
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  .lello{
+  
+  .footer_top{
     flex-grow: 1;
   }
 
