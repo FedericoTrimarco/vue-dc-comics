@@ -1,6 +1,6 @@
 <template>
 <section id="section-one">
-    <div class="container border">
+    <div class="container">
         <h1>Content goes here</h1>
     </div>
 </section>
@@ -14,6 +14,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/styles/generals';
+@import '@/styles/utilities';
 
 #section-one{
     background: #1c1c1c;

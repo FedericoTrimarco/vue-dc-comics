@@ -1,5 +1,5 @@
 <template>
-    <div class="container border">
+    <div class="container">
       <div class="img-logo">
         <a href="/">
             <img src="@/assets/dc-logo.png" alt="dc-logo">
@@ -64,6 +64,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/styles/generals';
 @import '@/styles/variables';
+@import '@/styles/utilities';
 div{
     display: flex;
     align-items: center;
