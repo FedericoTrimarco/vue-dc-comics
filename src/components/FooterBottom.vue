@@ -22,7 +22,7 @@
 
 <script>
 export default {
-    name: '#footerBottom',
+    name: 'FooterBottom',
     data(){
         return{
             linkSocial: [

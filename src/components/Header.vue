@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div id="header_container" class="container">
       <div class="img-logo">
         <a href="/">
             <img src="@/assets/dc-logo.png" alt="dc-logo">
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-    name: 'div',
+    name: 'Header',
     data(){
         return{
             linkNav: [

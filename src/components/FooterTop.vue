@@ -1,5 +1,5 @@
 <template>
-    <section id="footer-top">
+    <section id="footer_top">
         <div class="container-footer d-flex">
             
             <div class="dc-footer-list">
@@ -41,7 +41,7 @@
 
 <script>
 export default {
-    name: '#footer-top',
+    name: 'FooterTop',
     data(){
         return{
             dcComicsLink: [

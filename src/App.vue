@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
-import SectionOne from '@/components/SectionOne.vue'
-import FooterTop from '@/components/FooterTop.vue'
-import FooterBottom from '@/components/FooterBottom.vue'
+import Header from '@/components/Header.vue';
+import SectionOne from '@/components/SectionOne.vue';
+import FooterTop from '@/components/FooterTop.vue';
+import FooterBottom from '@/components/FooterBottom.vue';
 
 export default {
   name: 'App',
