@@ -5,10 +5,10 @@
                 <button>SIGN-UP NOW!</button>
             </div>
             <div class="footer-bottom-right d-flex justify-content-center">
-                <div class="social d-flex aligne-items-center">
-                    <h2 class="me-4">FOLLOW </h2>
+                <div class="social d-flex aligne-items-center px-4">
+                    <h2>FOLLOW </h2>
                     <ul class="d-flex list-style-none">
-                        <li v-for="(social, index) in linkSocial" :key="`link-${index}`" class="me-4">
+                        <li v-for="(social, index) in linkSocial" :key="`link-${index}`" class="px-4">
                             <a href="">
                                 <img :src="require(`@/assets/${social.src}`)" :alt="social.socialName">
                             </a>
