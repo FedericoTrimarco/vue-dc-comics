@@ -21,14 +21,14 @@
                 <ul>
                     <h2>DC</h2>
                     <li v-for="(link, index) in dcLink" :key="`link-${index}`">
-                            <a href="/">{{link.text}}</a>
-                        </li>
+                        <a href="/">{{link.text}}</a>
+                    </li>
                 </ul>
                 <ul>
                     <h2>SITES</h2>
                     <li v-for="(link, index) in sitesLink" :key="`link-${index}`">
-                            <a href="/">{{link.text}}</a>
-                        </li>
+                        <a href="/">{{link.text}}</a>
+                    </li>
                 </ul>
             
             </div>
