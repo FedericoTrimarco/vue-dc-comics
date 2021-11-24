@@ -9,8 +9,6 @@
       <FooterTop class="footer_top"/>
       <FooterBottom />
     </footer>
-    
-
   </div>
     
 </template>
@@ -46,6 +44,7 @@ body{
   height: 100%;
   display: flex;
   flex-direction: column;
+  min-width: 2000px;
 }
 footer{
   height: 100%;
