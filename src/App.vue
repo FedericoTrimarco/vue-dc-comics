@@ -2,12 +2,8 @@
   <div id="app">
     <header>
       <Header />
+      <HeaderHero />
     </header>
-
-    <main>
-      <SectionOne />
-
-    </main>
 
     <footer>
       <FooterTop class="footer_top"/>
@@ -21,7 +17,7 @@
 
 <script>
 import Header from '@/components/Header.vue';
-import SectionOne from '@/components/SectionOne.vue';
+import HeaderHero from '@/components/HeaderHero.vue';
 import FooterTop from '@/components/FooterTop.vue';
 import FooterBottom from '@/components/FooterBottom.vue';
 
@@ -29,7 +25,7 @@ export default {
   name: 'App',
   components: {
     Header,
-    SectionOne,
+    HeaderHero,
     FooterTop,
     FooterBottom
   }

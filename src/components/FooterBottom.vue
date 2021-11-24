@@ -1,6 +1,6 @@
 <template>
   <section id="footerBottom">
-        <div class="container-footer d-flex aligne-items-center">
+        <div class="container-two d-flex aligne-items-center">
             <div class="footer-bottom-left">
                 <button>SIGN-UP NOW!</button>
             </div>
@@ -60,7 +60,7 @@ export default {
         background-color: #303030;
         padding: 40px 0;
     }
-    .container-footer{
+    .container-two{
         div{
             width: calc(100% / 2);
         }

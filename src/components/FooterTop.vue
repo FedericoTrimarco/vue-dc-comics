@@ -1,6 +1,6 @@
 <template>
     <section id="footer_top">
-        <div class="container-footer d-flex">
+        <div class="container-two d-flex">
             
             <div class="dc-footer-list">
                 <div class="list-left">
