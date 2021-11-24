@@ -2,7 +2,9 @@
 .text-end{
     text-align: end;
 }
-
+.text-center{
+    text-align: center;
+}
 .d-flex{
     display: flex;
 }
@@ -17,4 +19,7 @@
 }
 .justify-content-center{
     justify-content: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
